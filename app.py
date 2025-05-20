@@ -56,7 +56,7 @@ if st.button("Open Link"):
     user_input = user_input.strip()
     if user_input:
         full_url = f"{LINK_BASE}{user_input}"
-        st.success(f"Opening: {full_url}")
+        st.success(f"Click the link to open: {full_url}")
         webbrowser.open(full_url)
 
         if user_input in history_data["history"]:
