@@ -52,7 +52,7 @@ if history_data["date"] != today:
 
 user_input = st.text_input("Enter ID", placeholder="e.g., 12345")
 
-if st.button("Open Link"):
+if st.button("Create Link"):
     user_input = user_input.strip()
     if user_input:
         full_url = f"{LINK_BASE}{user_input}"
