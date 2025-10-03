@@ -6,7 +6,7 @@ from datetime import datetime
 from fpdf import FPDF
 import io
 
-LINK_BASE = "https://www.studywithcare.com/cv/P"
+LINK_BASE = "https://www.studywithcare.com/cv/"
 HISTORY_FILE = "search_history.json"
 
 def load_history():
@@ -109,3 +109,4 @@ footer = """
 """
 
 st.markdown(footer, unsafe_allow_html=True)
+
