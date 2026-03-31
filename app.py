@@ -50,7 +50,7 @@ if history_data["date"] != today:
     history_data = {"date": today, "history": []}
     save_history(history_data)
 
-user_input = st.text_input("Enter ID", placeholder="e.g., 12345")
+user_input = st.text_input("Enter ID", placeholder="e.g., P12345")
 
 if st.button("Create Link"):
     user_input = user_input.strip()
